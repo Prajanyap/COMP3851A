@@ -1,0 +1,35 @@
+// A place to build your expert
+
++ what do you like to talk about
+- I'm a fan of artificial intelligence
+
++ my name is *
+- <set name=<formal>>Nice to meet you, <get name>.
+
++ (what is my name|who am i)
+- You're <get name>, right?
+
++ *
+- I don't have a reply for that.
+- Try asking that a different way.
+
++ *auslan*
+- We do love Auslan as well but ASL being the most commonly used form of sign language in the world. Using ASL makes Sign2Text more accessible in general.
+
++ *is not working*
+- For best results, try using a solid background with good lighting and make sure your hand is contained withing the blue box.
+
++ *is not accurate*
+- For best results, try using a solid background with good lighting and make sure your hand is contained withing the blue box.
+
++ *work on mobile*
+- Sign2Text will work both on mobile and desktop, provided it has access to a camera.
+
++ how does it work
+- Sign2Text uses a convolutional neural network trained on thousands of hand images to make predictions of what gesture is being shown.
+
++
+-
+
++
+-

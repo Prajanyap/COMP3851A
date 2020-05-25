@@ -1,0 +1,148 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta charset="UTF-8">
+<title>About Us</title>
+<link rel="shortcut icon" href="favicon.ico">
+<link href="style.css" rel="stylesheet" type="text/css">
+
+
+</head>
+
+      <body>
+
+          <div class="menubg">
+
+
+              <ul id="menu">
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="about.html">About</a></li>
+                  <li><a href="faq.html">FAQ</a></li>
+
+              </ul>
+
+          </div>
+
+
+          <h1 class="center"> About Us </h1>
+
+
+        <div class="container">
+
+          <h4>
+            Sign2Text is the research project made in two term sequence by the final year students of university of newcastle. The purpose of the application is to communicate with deaf people who use american sign langugage. 
+          </h4>
+
+          <br>
+          <h2>What Buttons do </h2>
+         <!-- handles toggles -->
+          <div class="panel-group" id="accordion">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h4 class="panel-title">
+                  <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">Test</a>
+                </h4>
+              </div>
+              <div id="collapse1" class="panel-collapse collapse in">
+                <div class="panel-body">Test allows you to train data set pictures hence makes the better accuracy output.</div>
+              </div>
+            </div>
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h4 class="panel-title">
+                  <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">Translate</a>
+                </h4>
+              </div>
+              <div id="collapse2" class="panel-collapse collapse">
+                <div class="panel-body">Translate helps you to distinguish what sign has been shown on particular period.</div>
+              </div>
+            </div>
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h4 class="panel-title">
+                  <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">Learn</a>
+                </h4>
+              </div>
+              <div id="collapse3" class="panel-collapse collapse">
+                <div class="panel-body">Learn helps application to capture the images from users to train models.</div>
+              </div>
+            </div>
+            <hr>
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h4 class="panel-title">
+                  <a data-toggle="collapse" data-parent="#accordion" href="#collapse4">Copy</a>
+                </h4>
+              </div>
+              <div id="collapse4" class="panel-collapse collapse">
+                <div class="panel-body"> ----------------------------------</div>
+              </div>
+            </div>
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h4 class="panel-title">
+                  <a data-toggle="collapse" data-parent="#accordion" href="#collapse5">Clear</a>
+                </h4>
+              </div>
+              <div id="collapse5" class="panel-collapse collapse">
+                <div class="panel-body">----------------------------------</div>
+              </div>
+            </div>
+          </div> 
+        </div>
+
+
+
+        <div class="container">
+          <h2>References</h2>
+         
+          <div class="panel-group" id="accordion">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h4 class="panel-title">
+                  <a data-toggle="collapse" data-parent="#accordion" href="#collapse6">References</a>
+                </h4>
+              </div>
+              <div id="collapse6" class="panel-collapse collapse in">
+                <div class="panel-body">
+                  
+                  <b> Rivescript </b> has been used for the chatbot. 
+
+                </div>
+              </div>
+            </div>
+            </div>
+            </div>
+
+
+
+<!-- chatbot code -->
+  <chatbutton class="open-button" onclick="openForm()"><img src="myChatBot/images/chatwithsomeone.png" width="28px" height="20px"></chatbutton>
+  <div class="chat-popup" id="myForm">
+    <form class="form-container">
+      <iframe src="myChatBot/chat.html" width="280px" height="450px"></iframe>
+      <chatbutton type="button" class="btn cancel" onclick="closeForm()">Close</chatbutton>
+    </form>
+  </div>
+
+
+
+ 
+<script>
+function openForm() {
+  document.getElementById("myForm").style.display = "block";
+}
+
+function closeForm() {
+  document.getElementById("myForm").style.display = "none";
+}
+</script> 
+
+</body>
+</html>

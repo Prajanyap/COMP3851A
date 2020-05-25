@@ -1,0 +1,23 @@
+
+
+<!-- chatbot code -->
+  <button class="open-button" onclick="openForm()"><img src="images/chatwithsomeone.png" width="20px" height="20px"></button>
+  <div class="chat-popup" id="myForm">
+    <form class="form-container">
+      <iframe src="myChatBot/chat.html" width="280px" height="450px"></iframe>
+      <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+    </form>
+  </div>
+
+
+
+ 
+<script>
+function openForm() {
+  document.getElementById("myForm").style.display = "block";
+}
+
+function closeForm() {
+  document.getElementById("myForm").style.display = "none";
+}
+</script> 

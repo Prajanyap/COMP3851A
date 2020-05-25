@@ -1,0 +1,165 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta charset="UTF-8">
+<title>FAQ</title>
+<link rel="shortcut icon" href="favicon.ico">
+<link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+      <body>
+
+          <div class="menubg">
+
+
+              <ul id="menu">
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="about.html">About</a></li>
+                  <li><a href="faq.html">FAQ</a></li>
+
+              </ul>
+
+          </div>
+
+
+
+          <br> <br> <h1 class="center"> Frequently Asked questions </h1> <br>
+         
+
+
+<div class="container">
+         
+          <div class="panel-group" id="accordion">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h4 class="panel-title">
+                  <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">Can I add my sign images to increase accuracy?</a>
+                </h4>
+              </div>
+              <div id="collapse1" class="panel-collapse collapse in">
+                <div class="panel-body">Yes, you can use the learn button to input pictures. For each alphabet, It will take 30 images. </div>
+              </div>
+            </div>
+
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h4 class="panel-title">
+                  <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">How accurate is the application output? </a>
+                </h4>
+              </div>
+              <div id="collapse2" class="panel-collapse collapse">
+                <div class="panel-body">On our test, It is xx% accurate.</div>
+              </div>
+            </div>
+
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h4 class="panel-title">
+                  <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">How to add spaces in sentence?</a>
+                </h4>
+              </div>
+              <div id="collapse3" class="panel-collapse collapse">
+                <div class="panel-body"> 3 second pause during the hand signs makes application to go for another word.</div>
+              </div>
+            </div>
+
+                        <div class="panel panel-default">
+              <div class="panel-heading">
+                <h4 class="panel-title">
+                  <a data-toggle="collapse" data-parent="#accordion" href="#collapse4">Why does sign2text use ASL (instead of something else / instead of AUSLAN etc)?</a>
+                </h4>
+              </div>
+              <div id="collapse4" class="panel-collapse collapse">
+                <div class="panel-body"> ASL is the most commonly used form of sign language in the world. Using ASL makes Sign2Text more accessible in general.
+</div>
+              </div>
+            </div>
+
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h4 class="panel-title">
+                  <a data-toggle="collapse" data-parent="#accordion" href="#collapse5">It isn't working / isn't accurate.</a>
+                </h4>
+              </div>
+              <div id="collapse5" class="panel-collapse collapse">
+                <div class="panel-body">For best results, try using a solid background with good lighting and make sure your hand is contained withing the blue box.</div>
+              </div>
+            </div>
+
+                        <div class="panel panel-default">
+              <div class="panel-heading">
+                <h4 class="panel-title">
+                  <a data-toggle="collapse" data-parent="#accordion" href="#collapse6">The screen is black / can't see myself</a>
+                </h4>
+              </div>
+              <div id="collapse6" class="panel-collapse collapse">
+                <div class="panel-body">Make sure your browser allows use of the webcam. If so, there should be a popup asking for permission when the page loads. Just click "allow".</div>
+              </div>
+            </div>
+
+                        <div class="panel panel-default">
+              <div class="panel-heading">
+                <h4 class="panel-title">
+                  <a data-toggle="collapse" data-parent="#accordion" href="#collapse7">Does it work on mobile / desktop? </a>
+                </h4>
+              </div>
+              <div id="collapse7" class="panel-collapse collapse">
+                <div class="panel-body">Yes. Sign2Text will work both on mobile and desktop, provided it has access to a camera. </div>
+              </div>
+            </div>
+
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h4 class="panel-title">
+                  <a data-toggle="collapse" data-parent="#accordion" href="#collapse8">How does it work? </a>
+                </h4>
+              </div>
+              <div id="collapse8" class="panel-collapse collapse">
+                <div class="panel-body">Sign2Text uses a convolutional neural network trained on thousands of hand images to make predictions of what gesture is being shown.</div>
+              </div>
+            </div>
+
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h4 class="panel-title">
+                  <a data-toggle="collapse" data-parent="#accordion" href="#collapse9">What about privacy /does it save images / can it access my data? </a>
+                </h4>
+              </div>
+              <div id="collapse9" class="panel-collapse collapse">
+                <div class="panel-body">Sign2Text knows nothing about the person using it. Once the image has been processed to make a prediction, it is discarded and never used again. Nobody else has access to it.</div>
+              </div>
+            </div>
+
+          </div> 
+        </div>
+
+
+
+<!-- chatbot code -->
+  <chatbutton class="open-button" onclick="openForm()"><img src="myChatBot/images/chatwithsomeone.png" width="28px" height="20px"></chatbutton>
+  <div class="chat-popup" id="myForm">
+    <form class="form-container">
+      <iframe src="myChatBot/chat.html" width="280px" height="450px"></iframe>
+      <chatbutton type="button" class="btn cancel" onclick="closeForm()">Close</chatbutton>
+    </form>
+  </div>
+
+<script>
+function openForm() {
+  document.getElementById("myForm").style.display = "block";
+}
+
+function closeForm() {
+  document.getElementById("myForm").style.display = "none";
+}
+</script> 
+
+      <!--     <footer> &copy; </footer> -->
+      </body>
+      </html>
