@@ -18,6 +18,10 @@
 	margin-left: 0px;
 }
 
+table{
+	width: 100%;
+}
+
 
 ul#menu li {
 	top: 0px;
@@ -63,7 +67,6 @@ body {
 	margin-right:0px;
 	margin-left: 0px;
 }
-
 
 #videoContainer {
 	text-align: center;
@@ -198,15 +201,15 @@ h1{
 
 
 
-/*About + FAQ CSS*/ 
+/*About + FAQ CSS*/
 
     .listposts1{
       display:grid;
       grid-template-columns: 30% 69%;
-      
+
       grid-column-gap:1em;
       grid-row-gap:1em;
-      
+
       grid-gap:1em;
     }
 
@@ -277,7 +280,7 @@ h1{
     width: 40px;
     z-index: 9;
   }
-  
+
   /* The popup chat - hidden by default */
   .chat-popup {
     display: none;
@@ -287,14 +290,14 @@ h1{
     border: 3px solid #f1f1f1;
     z-index: 9;
   }
-  
+
   /* Add styles to the form container */
   .form-container {
     max-width: 300px;
     padding: 10px;
     background-color: white;
   }
-  
+
   /* Full-width textarea */
   .form-container textarea {
     width: 100%;
@@ -305,13 +308,13 @@ h1{
     resize: none;
     min-height: 200px;
   }
-  
+
   /* When the textarea gets focus, do something */
   .form-container textarea:focus {
     background-color: #ddd;
     outline: none;
   }
-  
+
   /* Set a style for the submit/send button */
   .form-container .btn {
     background-color: #4CAF50;
@@ -323,12 +326,12 @@ h1{
     margin-bottom:10px;
     opacity: 0.8;
   }
-  
+
   /* Add a turq green background color to the cancel button */
   .form-container .cancel {
     background-color: #8EE4AF;
   }
-  
+
   /* Add some hover effects to buttons */
   .form-container .btn:hover, .open-button:hover {
     opacity: 1;

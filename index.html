@@ -35,26 +35,28 @@
             <button onclick="mode('test')" id="test">Test</button>
             <button onclick="mode('translate')" id="translate">Translate</button>
             <button onclick="mode('learn')" id="learn">Learn</button>
-            <style type="text/css">   
-            
+            <style type="text/css">
+
             a:hover {
             color: #8EE4AF;
             font-weight: bolder;
                 }
             </style>
- 
+
         </div>
         <div class="col-md-6">
-            <table width=99%>
+            <table>
                 <tr>
+                  <td colspan="2">
                     <div id="videoContainer">
                         <video autoplay="true" id="videoElement"></video>
                         <canvas id="mycanvas" width="640" height="480"></canvas>
                         <select id="videoSource">Select Camera</select>
                     </div>
+                  </td>
                 </tr>
                 <tr>
-                    <td rowspan="2" width=85%>
+                    <td rowspan="2" width="85%">
                         <div id="storedInputContainer">
                             <span id="storedInput"></span>
                             <span id="predictedInput">Loading...</span>
@@ -64,9 +66,8 @@
                 </tr>
                 <tr>
                     <td>
-                        <button onclick="document.getElementById('storedInput').value = ''" id="smallButton">Clear</button>
+                        <button onclick="document.getElementById('storedInput').innerHTML = ''" id="smallButton">Clear</button>
                     </td>
-                </tr>
                 </tr>
             </table>
         </div>
@@ -90,7 +91,7 @@
 
 
 
- 
+
 <script>
 function openForm() {
   document.getElementById("myForm").style.display = "block";
@@ -99,7 +100,7 @@ function openForm() {
 function closeForm() {
   document.getElementById("myForm").style.display = "none";
 }
-</script> 
+</script>
 
 </body>
 </html>
