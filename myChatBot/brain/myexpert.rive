@@ -27,9 +27,3 @@
 
 + how does it work
 - Sign2Text uses a convolutional neural network trained on thousands of hand images to make predictions of what gesture is being shown.
-
-+
--
-
-+
--
