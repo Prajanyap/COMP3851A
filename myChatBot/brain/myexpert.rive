@@ -4,7 +4,15 @@
 - Errr, Could you try asking different way?
 - Sorry, I don't have a reply for that. \n
 ^ Could you email the developer at ASLgroup@uon.edu.au
- 
+
++ hello
+- Hi there, How may I help you?
+- Hi, How may I help you?
+
++ hi 
+- Hello, How may I help you?
+- Hello, how are you? 
+
 + what do you like to talk about
 - I'm a fan of artificial intelligence
 
@@ -25,3 +33,4 @@
 
 + * work/process *
 - Sign2Text uses a convolutional neural network trained on thousands of hand images to make predictions of what gesture is being shown.
+
