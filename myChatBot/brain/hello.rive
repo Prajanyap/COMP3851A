@@ -1,16 +1,20 @@
 // Tell the user stuff about ourself.
 
 + hello
-- Hi there, what's up?
+- Hi there, How may I help you?
 - Hi, How may I help you?
 
-+ hi
-- Hey, How may I help you?
++ hi 
+- Hello, How may I help you?
 - Hello, how are you?
+
++ what is up
+- Not much, you?
+- nm, you?
+- Not a lot, you?
 
 + i'm great|i'm good
 - Nice to hear, how may I help you?
-
 
 + <bot name>
 - Yes?
@@ -34,6 +38,9 @@
 
 + are you (@malenoun) or (@femalenoun)
 - I'm a <bot sex>.
+
++ (what is my name|who am i)
+- You're <get name>, right?
 
 + where (are you|are you from|do you live)
 - I'm from <bot location>.
