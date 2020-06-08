@@ -1,36 +1,50 @@
 // A place to build your expert
 
-*
-- Errr, Could you try asking different way?
++ *
+- Errr, Could you try asking a different way?
+- I'm not sure how to reply to that.
+- Try asking your question in a different way.
 - Sorry, I don't have a reply for that. \n
-^ Could you email the developer at ASLgroup@uon.edu.au
+^ for further enquiries, mail us at ASLgroup@uon.edu.au
 
-+ hello
++ (hello|hey|hi)
 - Hi there, How may I help you?
 - Hi, How may I help you?
-
-+ hi 
 - Hello, How may I help you?
 - Hello, how are you? 
 
++ [*]thanks|good thanks|good thank you[*]
+- Great
+
++ (not bad | not much)
+- Cool, How can I help you today?
+
 + what do you like to talk about
-- I'm a fan of artificial intelligence
+- I'm a fan of artificial intelligence and Image recognition
+
++ what is your (favourite|favorite) sign language
+- I do love all the sign languages, there's no specific one I can choose.
 
 + my name is *
 - <set name=<formal>>Nice to meet you, <get name>.
 
-+ * auslan/australian sign language *
++ [*]accuracy[*]
+- The accuracy might vary depending on lighting and background noise, but the trained model returned 97% accuracy on our test data.
+
++ [*]auslan|australian sign language[*]
 - We do love Auslan as well but ASL being the most commonly used form of sign language in the world. Using ASL makes Sign2Text more accessible in general.
 
-+ * not working *
-- For best results, try using a solid background with good lighting and make sure your hand is contained withing the blue box.
++ [*]not accurate|not working| not quite accurate| not very accurate[*]
+- for best results, try using a solid background with good lighting and make sure your hand is contained withing the blue box.
 
-+ * not accurate *
-- For best results, try using a solid background with good lighting and make sure your hand is contained withing the blue box.
-
-+ * mobile *
++ [*]mobile|phone[*]
 - Sign2Text will work both on mobile and desktop, provided it has access to a camera.
 
-+ * work/process *
++ [*]work|process[*]
 - Sign2Text uses a convolutional neural network trained on thousands of hand images to make predictions of what gesture is being shown.
 
++ [*]camera|webcam[*]
+- Make sure your browser allows use of the webcam. If so, there should be a popup asking for permission when the page loads. Just click "allow".
+
++ [*]confidentiality|privacy|security|collect data|collect pictures|collect images[*]
+- Sign2Text knows nothing about the person using it. Once the image has been processed to make a prediction, it is discarded and never used again. Nobody else has access to it.
